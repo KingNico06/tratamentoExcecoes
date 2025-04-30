@@ -20,7 +20,10 @@ public class Excecoes {
 			e.printStackTrace();
 			System.out.println("Valor inválido, informe um número.");
 		}
-
+		int arr[] = new int[5];
+		System.out.println(arr[3]);
+		
+		sc.close();
 	}
 
 }
